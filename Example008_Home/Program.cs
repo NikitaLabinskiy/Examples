@@ -4,10 +4,10 @@ int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
 int dogSpeed = 5;
 int friend = 2;
-int time = 0;
 
-while (distnace > 5)
-{
+while ( distance > 5 )
+{   
+    int time = 0;
     if (friend == 1)
     {
         time = distance/(firstFriendSpeed + dogSpeed);
