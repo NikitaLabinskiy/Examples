@@ -1,6 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-int number = Convert.ToInt32(Console.ReadLine()); 
+﻿Console.Clear();
+Console.WriteLine("Введите число");
+int N = Convert.ToInt32(Console.ReadLine());
 
-int square = number * number;
-
-Console.WriteLine(square);
+int count = -N;
+while (count < N)
+{
+    Console.Write(count);
+    Console.Write(", ");
+    count++;
+}
+Console.Write(count);
