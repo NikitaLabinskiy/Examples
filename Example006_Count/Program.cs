@@ -1,4 +1,6 @@
-﻿int a = 1;
+﻿int Max(int arg1, )
+
+int a = 1;
 int b = 2;
 int c = 12;
 int d = 8;
