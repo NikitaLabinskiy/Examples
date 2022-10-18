@@ -7,7 +7,7 @@ void Comparison (int firstNumber, int secondNumber)
     // secondNumber = Convert.ToInt32(Console.ReadLine());
    
 
-    if (firstNumber % 2 == 0 & secondNumber % 2 == 0)
+    if (firstNumber % secondNumber == 0)
     {
         Console.WriteLine("Кратное");
     }
@@ -17,4 +17,4 @@ void Comparison (int firstNumber, int secondNumber)
         Console.Write(firstNumber % secondNumber);
     }
 }
-Comparison(16, 6);
+Comparison(35, 4);
